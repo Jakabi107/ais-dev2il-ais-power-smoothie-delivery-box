@@ -8,6 +8,7 @@ dependencies = [
     "click>=8.3.1",
     "pyjokes>=0.8.3",
     "rich>=14.2.0",
+    "Pygments>=2.20.0"
 ]
 
 [dependency-groups]
