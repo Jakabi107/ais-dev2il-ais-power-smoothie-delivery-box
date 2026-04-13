@@ -2026,4 +2026,4 @@ You've now mastered the essential Docker Compose concepts:
 2. **Service discovery** - Services communicate using service names as hostnames
 3. **Dependencies** - Control startup order with `depends_on:`
 4. **Health checks** - Ensure services are truly ready before depending services start
-5. **Multi-service orchestration** - Manage complex applications with a single file
+5. **Multi-service orchestration** - Manage complex applications with a single fileHello
