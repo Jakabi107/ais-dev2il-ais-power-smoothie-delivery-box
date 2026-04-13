@@ -123,8 +123,8 @@ jobs:
           file: ./Dockerfile_Clean
           push: true
           tags: |
-            ghcr.io/${{ steps.reponame-lower.outputs.name }}:latest
-            ghcr.io/${{ steps.reponame-lower.outputs.name }}:v${{ github.run_number }}
+            ${{ steps.reponame-lower.outputs.name }}:latest
+            ${{ steps.reponame-lower.outputs.name }}:v${{ github.run_number }}
           build-args: |
             PYTHON_VERSION=${{ steps.python-version.outputs.version }}
           cache-from: type=gha
